@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="theme-color" content="#E44D26"/>
+    <meta name="msapplication-TileColor" content="#E44D26"/>
+    <meta name="msapplication-TileImage" content="./img/web-components-logo.svg"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-startup-image" href="./img/web-components-logo.svg"/>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="./img/web-components-logo.png"/>
+    <link rel="apple-touch-icon" href="./img/web-components-logo.svg"/>
+    <link rel="author" type="text/plain" href="./humans.txt"/>
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml"/>
+    <title>Layout one page</title>
+    <meta name="description" content="Página de practica echa por Norman">
+    <meta name="application-name" content="Página Photographic Norman Jaimes FrontEnd">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,600,600i" rel="stylesheet">
+    <link href="https://file.myfontastic.com/Kyh8M2JzicLsvun3JHDTeg/icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header"><a href="./"><img class="header__img" src="./img/logo.png" alt=""></a>
+    </header>
+    <nav class="nav_container l-container">
+      <ul class="menu--main">
+        <li class="menu__item"><a class="menu__link active" href="#home">Inicio</a></li>
+        <li class="menu__item"><a class="menu__link" href="#gallery">Galería </a></li>
+        <li class="menu__item"><a class="menu__link" href="#about">Sobre mí </a></li>
+        <li class="menu__item"><a class="menu__link" href="#contact">Contácto</a></li>
+      </ul>
+    </nav>
+    <div class="banner_container l-container--full">
+      <div class="banner">
+        <div class="banner__copy l-container">
+          <h1 class="banner__title">Imagenes</h1>
+          <p class="banner__subtitle">Que cuentan historias</p>
+        </div>
+      </div>
+    </div>
+    <div class="gallery_container l-container">
+      <div class="gallery">
+        <h2 class="gallery__title section--title">Galería</h2>
+        <nav class="menu__nav">
+          <ul class="menu--section">
+            <li class="menu__item"><a class="menu__link active" href="#">Todos</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Gente</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Lugares</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Naturaleza</a></li>
+          </ul>
+        </nav>
+        <div class="img-gallery">
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/01.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/02.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/03.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/04.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/05.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/06.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/07.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/08.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/09.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/10.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/11.jpg" alt="">
+          </div>
+          <div class="img-gallery__item"><img class="img-gallery__img" src="./img/12.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about_container">
+      <div class="about">
+        <div class="about__img"><img src="./img/camara.png" alt=""></div>
+        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas feugiat dolor. Quisque eget eros quis neque egestas ultricies. Aliquam porttitor metus ut egestas consequat. Nullam vel dui in justo scelerisque egestas. Cras non facilisis justo.</p>
+      </div>
+    </div>
+    <div class="contact_container l-container">
+      <div class="contact">
+        <h2 class="contact__title section--title">Contácto</h2>
+        <p class="contact__description section--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas feugiat dolor. Quisque eget eros quis neque egestas ultricies. Aliquam porttitor metus ut egestas consequat. Nullam vel dui in justo scelerisque egestas. Cras non facilisis justo.</p>
+        <form class="form--contact">
+          <input class="form__item" type="text" name="name" id="name" placeholder="Nombre">
+          <input class="form__item" type="email" name="correo" id="email" placeholder="Correo">
+          <textarea class="form__item" name="message" id="message" cols="30" rows="10" placeholder="Dejanos tú mensaje"></textarea>
+          <input class="form__item form__submit" type="submit" value="Contrátame">
+        </form>
+      </div>
+    </div>
+    <footer class="footer_container">
+      <div class="l-container--row">
+        <div class="l-first">
+          <p>Norman Jaimes</p>
+        </div>
+        <div class="l-second"><a class="icon-facebook" href="https://facebook.com/normanejm"></a><a class="icon-youtube" href="https://youtube.com/normanejm"></a><a class="icon-twitter" href="https://twitter.com/normanejm"></a></div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

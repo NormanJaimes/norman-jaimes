@@ -1,0 +1,2 @@
+"use strict";var toggle=document.getElementById("toggle__menu"),nav=document.getElementById("nav");toggle.addEventListener("click",function(){nav.classList.toggle("show")});
+//# sourceMappingURL=index.js.map
